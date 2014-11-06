@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="8" tileheight="8" backgroundcolor="#445a75">
+ <properties>
+  <property name="unity:scale" value="0.125"/>
+ </properties>
+ <tileset firstgid="1" name="tiles" tilewidth="8" tileheight="8">
+  <image source="../img/tiles.png" trans="5e81a2" width="128" height="128"/>
+ </tileset>
+ <layer name="back" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztzTEKwCAUBFGvFEjSm0LrJHr/q7jCb+2EbebBwnaTEoBdHu2O/xr6p9ajXQz9T/vjH4b+1LRLy6b+VI1tAAAAYGUANwcD0Q==
+  </data>
+ </layer>
+ <layer name="walls" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztlFsKgCAQRW+vBUS1gKz2v8XmswQdYyhJ74HzJXoUUQAYEWdSxq2w//9+Ix4BO2N/EFvFPjJf27/Wt5LSdxdz9N+kxP6C+53NH/f9NVdxD7gZ+/5ZXcKaTyjh/7P2Y++/hvPn7BNCCCG1cQIZoQao
+  </data>
+ </layer>
+</map>
