@@ -5,6 +5,83 @@
  </properties>
  <tileset firstgid="1" name="tiles" tilewidth="8" tileheight="8">
   <image source="../img/tiles.png" trans="5e81a2" width="128" height="128"/>
+  <tile id="0">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="8" height="8"/>
+   </objectgroup>
+  </tile>
+  <tile id="1">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="8" height="8"/>
+   </objectgroup>
+  </tile>
+  <tile id="2">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="8" height="8"/>
+   </objectgroup>
+  </tile>
+  <tile id="3">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="8" height="8"/>
+   </objectgroup>
+  </tile>
+  <tile id="4">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="8" height="8"/>
+   </objectgroup>
+  </tile>
+  <tile id="5">
+   <objectgroup draworder="index">
+    <object x="0" y="0">
+     <polyline points="0,0 8,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="16">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="8" height="8"/>
+   </objectgroup>
+  </tile>
+  <tile id="18">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="8" height="8"/>
+   </objectgroup>
+  </tile>
+  <tile id="19">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="8" height="8"/>
+   </objectgroup>
+  </tile>
+  <tile id="20">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="8" height="8"/>
+   </objectgroup>
+  </tile>
+  <tile id="32">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="8" height="8"/>
+   </objectgroup>
+  </tile>
+  <tile id="33">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="8" height="8"/>
+   </objectgroup>
+  </tile>
+  <tile id="34">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="8" height="8"/>
+   </objectgroup>
+  </tile>
+  <tile id="35">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="8" height="8"/>
+   </objectgroup>
+  </tile>
+  <tile id="36">
+   <objectgroup draworder="index">
+    <object x="0" y="0" width="8" height="8"/>
+   </objectgroup>
+  </tile>
  </tileset>
  <layer name="back" width="32" height="32">
   <data encoding="base64" compression="zlib">
@@ -13,7 +90,12 @@
  </layer>
  <layer name="walls" width="32" height="32">
   <data encoding="base64" compression="zlib">
-   eJztlFsKgCAQRW+vBUS1gKz2v8XmswQdYyhJ74HzJXoUUQAYEWdSxq2w//9+Ix4BO2N/EFvFPjJf27/Wt5LSdxdz9N+kxP6C+53NH/f9NVdxD7gZ+/5ZXcKaTyjh/7P2Y++/hvPn7BNCCCG1cQIZoQao
+   eJztlEsKwCAMBZ/9HKC0PUCt3v+KZlkETSVQ0L6BWYkZsxEANtTZlXMr7Pffd2IsOBv7qzgpLpX72vu1vhX2x+ufon94fNzPZ15iKHgb+/mu/sXMFkb4/9jvt08IIYT8jQTEqgXc
+  </data>
+ </layer>
+ <layer name="platforms" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt0zENAAAIBLGf8C+ZFQUw0CYn4RLgWo2AX/wPAGxpiF8AJQ==
   </data>
  </layer>
 </map>
