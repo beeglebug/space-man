@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="8" tileheight="8" backgroundcolor="#1e2229">
+ <properties>
+  <property name="unity:scale" value="0.125"/>
+ </properties>
+ <tileset firstgid="1" name="tiles2" tilewidth="8" tileheight="8">
+  <image source="../img/tiles2.png" trans="5e81a2" width="128" height="128"/>
+ </tileset>
+ <layer name="back" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzdV1EOgyAMLXMXGDdAT+D9L7eZ+LK32mJR+NlLGkAbXottqSJ98fpIOtFJu15vlAA/uHvzg1vzzw7/CIB73uXxkUzrmfhLZ274vxI3ODOtr/pv2VvUnPk9RM4gejZFSST2ZbeRz6DQWJxn/E7kG2sccxFuETsH2AeI9cwS8D6D/JsezsDaP5GsxnxVOleBc0hi71fzJ+prDU+DczQyzZGnPVHLPcuWVv2eyAP23ODFk8Yibf5HgZzimsE80z5uttX8j9pm7cF3jwby93XCfxcW9yS/d1BS77RubX0FiAl9Z3i1zqt7y0V+1F34H63xXs1vhdd/6XvOuvO0va21k797a/+jew2MbEftm9zhPrOL7eBYQf5lOfYcPfkx6vhAbj9knP+WPUWOcaF7zxE2cMyujg5iZdQ/QLQPHd133KkRPdDSj/+zDXJiwxuokhT0
+  </data>
+ </layer>
+ <layer name="walls" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <layer name="platforms" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+</map>
