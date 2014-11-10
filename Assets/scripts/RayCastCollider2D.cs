@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 // rigidbody is needed to get collision events
 [RequireComponent( typeof( BoxCollider2D ), typeof( Rigidbody2D ))]
-public class CharacterController2D : MonoBehaviour
+public class RayCastCollider2D : MonoBehaviour
 {
 	private struct CharacterRaycastOrigins
 	{
@@ -104,11 +104,6 @@ public class CharacterController2D : MonoBehaviour
 	private float _droppedThroughPlatformTime;
 	private float _platformDropDelay = 0.1f;
 
-	// ladder stuff
-	public bool isTouchingLadder;
-	public bool isTouchingLadderTop;
-	public bool isOnLadder;
-
 	private float _debugRayScale = 10f;
 
 	void Awake()
@@ -169,7 +164,6 @@ public class CharacterController2D : MonoBehaviour
 		// set our becameGrounded state based on the previous and current collision state
 		if( !collisionState.wasGroundedLastFrame && collisionState.below ) {
 			collisionState.becameGroundedThisFrame = true;
-			isOnLadder = false;
 		}
 
 		// if we are going up a slope we artificially set a y velocity so we need to zero it out here

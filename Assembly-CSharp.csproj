@@ -49,10 +49,12 @@
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SortingLayerExposed.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TileAnimator.cs" />
      <Compile Include="Assets\scripts\CameraFollow.cs" />
-     <Compile Include="Assets\scripts\CharacterController2D.cs" />
-     <Compile Include="Assets\scripts\CharacterInputController.cs" />
+     <Compile Include="Assets\scripts\FlameController.cs" />
+     <Compile Include="Assets\scripts\PlayerInputController.cs" />
+     <Compile Include="Assets\scripts\RayCastCollider2D.cs" />
      <None Include="Assets\Tiled2Unity\Prefabs\_ReadMe.txt" />
      <None Include="Assets\Tiled2Unity\Shaders\shaTiledMap.shader" />
+     <None Include="Assets\Tiled2Unity\Imported\test2.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Imported\test.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Materials\_ReadMe.txt" />
      <None Include="Assets\Tiled2Unity\Textures\_ReadMe.txt" />
