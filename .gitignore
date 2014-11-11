@@ -1,8 +1,12 @@
+# temp folders
 Temp/
 Obj/
 UnityGenerated/
 Library/
 ExportedObj/
+Build/
+
+# auto generated unity files
 *.svd
 *.userprefs
 *.csproj
