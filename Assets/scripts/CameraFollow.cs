@@ -1,6 +1,6 @@
 using UnityEngine;
 using System.Collections;
-using UnityEditor;
+//using UnityEditor;
 
 public class CameraFollow : MonoBehaviour {
 
@@ -56,8 +56,8 @@ public class CameraFollow : MonoBehaviour {
     
     public void CalculateBounds(GameObject mapObject)
     { 
-		float cameraHeight = 2f * camera.orthographicSize;
-        float cameraWidth = camera.aspect * cameraHeight;
+		//float cameraHeight = 2f * camera.orthographicSize;
+        //float cameraWidth = camera.aspect * cameraHeight;
 /*        
 		Map map = mapObject.GetComponentInParent<Map>();
 
