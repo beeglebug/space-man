@@ -3,16 +3,18 @@ using System.Collections;
 
 public class Jetpack : MonoBehaviour {
 
-	Animator _animator;
+	private Animator _animator;
+	private ParticleSystem _smoke;
+	
 	public bool on = false;
 
-	// Use this for initialization
 	void Start () {
+
 		GameObject flame = GameObject.Find("Flame");
+		
 		_animator = flame.GetComponent<Animator>();
 	}
 	
-	// Update is called once per frame
 	void Update () {
 	
 		if(on) {
