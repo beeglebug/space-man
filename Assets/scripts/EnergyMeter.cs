@@ -1,28 +1,29 @@
 using UnityEngine;
 using System.Collections;
 
-public class EnergyMeter : MonoBehaviour {
+public class EnergyMeter : Meter {
+
+	public float depletionRate = 0.6f;
+	public float rechargeRate = 0.3f;
 	
-	public int max = 100;
-	public float current = 50.0f;
+	public bool isDepleting = false;
 	
-	private int width = 100;
-	private Texture2D texture;
-	private Color32 color;
-	
-	void Start () {
-		color = new Color32(60, 170, 210, 255);
-		texture = new Texture2D(1,1);
-		texture.SetPixel(1,1, color);
-		texture.Apply();
+	public void Start () {
+		color = new Color32(255,212,85,255);
+		position.Set(100,30);
+		base.Start ();
 	}
 	
-	void Update () {
-		current -= 0.1f;
-		current = Mathf.Max (0, current);
+	void Update() {
+		
+		if(isDepleting) {
+			current -= depletionRate;
+		} else {
+			current += rechargeRate;
+		}
+		
+		current = Mathf.Clamp(current, min, max);
+		
 	}
 	
-	void OnGUI() {
-		GUI.DrawTexture(new Rect(100, 10, current, 1), texture);
-	}
 }

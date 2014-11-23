@@ -3,7 +3,6 @@ using System.Collections;
 
 public class PlayerInputController : MonoBehaviour
 {
-	public float boostSpeed = 20f;
 	public float horizontalSpeed = 10f;
 
 	Jetpack _jetpack;
@@ -35,7 +34,6 @@ public class PlayerInputController : MonoBehaviour
 
 		if( Input.GetKey( KeyCode.Space ) )
 		{
-			rigidbody2D.AddForce(new Vector2(0, boostSpeed));
 			_jetpack.on = true;
 		
 		} else {
